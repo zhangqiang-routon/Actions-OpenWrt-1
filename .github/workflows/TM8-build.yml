@@ -114,7 +114,7 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - name: Compile the firmware again
-      id: compile
+      id: compile again
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
