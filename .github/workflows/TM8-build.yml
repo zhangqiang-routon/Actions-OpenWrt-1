@@ -113,7 +113,7 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
-    - name: Compile the firmware
+    - name: Compile the firmware again
       id: compile
       run: |
         cd openwrt
